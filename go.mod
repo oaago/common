@@ -1,3 +1,3 @@
-module gitlab.laodianhuang.cn/oaago/common
+module github.com/oaago/common
 
 go 1.18

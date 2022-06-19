@@ -1,6 +1,6 @@
 由于go对私有gitlab的仓库支持不好，得使用下面这些步骤
 
-设置git使用 ssh协议 git config --global url."git@gitlab.laodianhuang.cn:".insteadOf "https://gitlab.laodianhuang.cn/"
+设置git使用 ssh协议 git config --global url."git@github.com:".insteadOf "https://github.com/"
 
 添加ssh key 到gitlab
 
@@ -14,7 +14,7 @@ keys，或者打开链接https://gitlab.com/profile/keys
 
 自己搭建的gitlab也是如此
 
-git config --global url."git@gitlab.laodianhuang.cn:".insteadOf "https://gitlab.laodianhuang.cn/"
+git config --global url."git@github.com:".insteadOf "https://github.com/"
 
 go install github.com/oaago/common@main
 
