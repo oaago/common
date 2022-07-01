@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/oaago/component/logx"
+	"github.com/oaago/cloud/logx"
 )
 
 const phoneKey = "jiklmnopqrstuv+RSTUwxyz3210549876Q/ZDCBAEFGHIJKLMNOPabdcefghVYXW="
