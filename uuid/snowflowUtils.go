@@ -50,6 +50,6 @@ func (w *Worker) GetId() int64 {
 		w.number = 0
 		w.timestamp = now
 	}
-	ID := int64((now-startTime)<<timeShift | (w.workerId << workerShift) | (w.number))
+	ID := (now-startTime)<<timeShift | (w.workerId << workerShift) | (w.number)
 	return ID
 }
